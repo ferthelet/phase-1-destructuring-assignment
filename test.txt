@@ -1,0 +1,70 @@
+
+> javascript-lab@1.0.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+
+
+  index.js
+    1) String: uses destructuring to declare five animal sounds
+    2) String: uses destructuring to declare the four traditional animal names
+    3) String: uses destructuring to declare the three traditional animal colors
+    4) Array: uses destructuring to declare the seven traditional rainbow color variables using the color names
+    5) Array: uses destructuring to declare six rainbow color variables using initials
+    6) Array: uses destructuring to declare Indigo using indg
+    7) Object: uses destructuring to assign all appropriate variables using the keys as the variable names
+    8) Object: uses destructuring to assign songs 2 and 4, and Kermit's job and partner
+
+
+  0 passing (256ms)
+  8 failing
+
+  1) index.js
+       String: uses destructuring to declare five animal sounds:
+     ReferenceError: moo is not defined
+      at Context.<anonymous> (test/indexTest.js:7:12)
+      at process.processImmediate (node:internal/timers:476:21)
+
+  2) index.js
+       String: uses destructuring to declare the four traditional animal names:
+     ReferenceError: bessie is not defined
+      at Context.<anonymous> (test/indexTest.js:19:12)
+      at process.processImmediate (node:internal/timers:476:21)
+
+  3) index.js
+       String: uses destructuring to declare the three traditional animal colors:
+     ReferenceError: blackAndWhite is not defined
+      at Context.<anonymous> (test/indexTest.js:29:12)
+      at process.processImmediate (node:internal/timers:476:21)
+
+  4) index.js
+       Array: uses destructuring to declare the seven traditional rainbow color variables using the color names:
+     ReferenceError: red is not defined
+      at Context.<anonymous> (test/indexTest.js:37:12)
+      at process.processImmediate (node:internal/timers:476:21)
+
+  5) index.js
+       Array: uses destructuring to declare six rainbow color variables using initials:
+     ReferenceError: r is not defined
+      at Context.<anonymous> (test/indexTest.js:53:12)
+      at process.processImmediate (node:internal/timers:476:21)
+
+  6) index.js
+       Array: uses destructuring to declare Indigo using indg:
+     ReferenceError: indg is not defined
+      at Context.<anonymous> (test/indexTest.js:67:12)
+      at process.processImmediate (node:internal/timers:476:21)
+
+  7) index.js
+       Object: uses destructuring to assign all appropriate variables using the keys as the variable names:
+     ReferenceError: muppetName is not defined
+      at Context.<anonymous> (test/indexTest.js:72:12)
+      at process.processImmediate (node:internal/timers:476:21)
+
+  8) index.js
+       Object: uses destructuring to assign songs 2 and 4, and Kermit's job and partner:
+     ReferenceError: song2 is not defined
+      at Context.<anonymous> (test/indexTest.js:85:12)
+      at process.processImmediate (node:internal/timers:476:21)
+
+
+
